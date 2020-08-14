@@ -1,4 +1,4 @@
-# docker-study
+# docker with spring boot
 Usefull commands to practice docker (at https://labs.play-with-docker.com) 
 
 
