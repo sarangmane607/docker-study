@@ -15,8 +15,9 @@ apk --no-cache add openjdk8 --repository=http://dl-cdn.alpinelinux.org/alpine/ed
 java -version
 ```
 
-###### Create docker file
+###### Create docker file inside /root folder
 ```
+cd /root
 vi Dockerfile
 ```
 
@@ -37,10 +38,10 @@ cd gs-spring-boot-docker/complete/
 
 ###### Build docker image
 ```
-pwd
 cd /root
 docker build -t sarangmane/test-repo .
 ```
+Note : "sarangmane/test-repo" is local repository name
 
 ###### Check image
 ```
